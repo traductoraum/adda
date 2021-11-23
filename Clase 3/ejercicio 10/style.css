@@ -1,0 +1,44 @@
+*{
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+
+}
+
+.tareas {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(180, 231, 180);
+    border-style: groove;
+    border-radius: 5%;
+    border-color: hotpink;
+    box-shadow: 20px 30px rgb(193, 224, 200);
+    text-align: center;
+    margin-left:35%;
+}
+h1 {font-size: 4em;
+text-align: center;}
+
+h2 {font-size: 2em;
+text-align: center;}
+
+h3 {font-size: 1.5em;}
+
+.pendiente {
+    color: rgb(77, 178, 218);
+}
+
+.proceso {
+    color: orange ;
+}
+
+.hecho {
+    color: greenyellow;
+}
+/*Poner un tipografía distinta a la default.
+Dar a los títulos un tamaño de fuente distinto al default.
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+Poner a cada estado un color de fondo distinto, siguiendo el siguiente criterio:
+Pendiente: Azul
+Haciendo: Naranja
+Hecha: Verde
+Cancelada: Rojo

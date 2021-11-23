@@ -1,0 +1,66 @@
+*{
+    font-family: 'Indie Flower', cursive;
+}
+.contenedor {
+    height: 450px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 300px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgb(179, 228, 212) 1px 4px 1px;
+    border-color:azure;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10%;
+    position: absolute;
+    justify-content: center;
+}
+
+#ada {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    padding: 2%;
+    top: 40px;
+    right: 100px;
+    border-radius: 100%;
+
+}
+
+#bandera {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    top: 200px;
+    left: 250px;
+}
+
+.texto {
+    position: relative;
+    top: 250px;
+    line-height : 5px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+
+/*   <div class="contenedor">
+   <img src="./imagenes/ada.jpg"/>
+   <img src="./imagenes/bandera inglaterra.png"/>
+   <h3>Nombre</h3>
+   <p>Ada</p>
+   <h3>Apellido</h3>
+   <p>Lovelace</p>
+   <h3>Profesión</h3>
+   <p>Programadora</p>
+</div>
+*/

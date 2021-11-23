@@ -1,0 +1,49 @@
+*{
+font-family: 'Times New Roman', Times, serif;
+background-color: #380202;
+color: rgba(194, 186, 186, 0.863);
+
+
+}
+
+h1 {
+font-size: 6em;
+color: snow;
+text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: rgb(125, 185, 241);
+}
+
+#primeraoracion {
+        font-style: italic;
+}
+
+#segundaoracion{
+font-weight: bold;
+}
+
+#tercerparrafo {
+    font-style: italic;
+}
+#cuartoparrafo1 {
+    font-weight: bold;
+}
+#cuartoparrafo2 {
+    font-style: italic;
+}
+/*03 - Artículo
+un texto que diga: Publicado por @adalovelace hace 3 días. @adalovelace debe ser un link (que no lleve a ningún). El texto debe tener un color gris mientras que el link un
+ color celeste. El link no debe tener subrayado. El texto debe tener la misma tipografía que los siguientes párrafos.
+4 párrafos p con lorem ipsum y una tipografía distinta a la del título:
+El primer párrafo debe tener una oración en itálica.
+El segundo párrafo debe tener una oración en negrita.
+El tercer párrafo debe estar completamente en itálica y tener una tipografía distinta a la de los párrafos.
+El cuarto párrafo debe tener 2 palabras en negrita y 2 palabras en itálica.-->*/

@@ -1,0 +1,102 @@
+*{
+background-color: rgb(58, 54, 54);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1em;
+color: floralwhite;
+font-weight: 900;
+}
+
+div {
+    background-color: lavender;
+    border-radius: 5%;
+    height: 80%;
+    width: 60%;
+}
+
+.contenedor {
+    background-color: lavender;
+    border-radius: 5%;
+    height: 80%;
+    width: 60%;
+}
+
+div.contenedor {
+    background-color: lavender;
+    border-radius: 5%;
+    height: 80%;
+    width: 60%;
+}
+
+#contenedor {
+    background-color: lavender;
+    border-radius: 5%;
+    height: 80%;
+    width: 60%;
+}
+
+
+
+h1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 4em;
+    color: rgba(255, 226, 167, 0.884)
+ 
+}
+
+h2 {
+    font-size: 2em;
+    color: khaki;
+    font-style: italic;
+
+
+}
+
+ol {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 1.5em;
+}
+
+.gold{
+    
+    color: #FFD700;
+    
+}
+
+.lightgold {
+   
+    color:#dedb1d;
+}
+
+.lightgrey {
+    color: #deddaf
+}
+
+.negro {
+    color: 	#000000;
+}
+
+.blanco {
+    color: 	#FFFFF0;
+}
+
+.gris 
+{
+color: #778899;    
+}
+
+.rosa {
+    color: #FFB6C1;
+}
+
+.violeta {
+    color: 	#9370D8;
+}
+
+.magenta {
+    color: 	#FF00FF;
+}

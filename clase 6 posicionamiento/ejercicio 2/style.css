@@ -1,0 +1,173 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 70vh;
+    background-color: transparent;
+    margin-left: 50vh;
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+    background-color: honeydew;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+
+.grey {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    position: relative;
+    padding: 10%;
+    margin: auto;
+}
+
+.red {
+    height: 120px;
+    width: 120px;
+    background-color: red;
+}
+
+.green {
+height: 60px;
+width: 60px;
+background-color: green;
+}
+
+
+#red1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+#green1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(36, 196, 108); 
+}
+
+
+#red2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+}
+
+#green2 {
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    background-color: rgb(36, 196, 108); 
+}
+
+#red3 {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    background-color: red;
+}
+
+#green3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(36, 196, 108); 
+}
+
+
+#red4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+}
+
+#green4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(36, 196, 108); 
+}
+
+
+#red5 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+}
+
+#green5 {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: rgb(36, 196, 108); 
+}
+
+#red6 {
+    position: absolute;
+    bottom:0px;
+    left: 80px;
+    background-color: red;
+}
+
+#green6 {
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+    background-color: rgb(36, 196, 108); 
+}
+
+#red7 {
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    background-color: red;
+}
+
+#green7 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(36, 196, 108); 
+}
+
+#red8 {
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    background-color: red;
+}
+
+#green8 {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    background-color: rgb(36, 196, 108); 
+}
+
+#red9 {
+    position: absolute;
+    bottom:120px;
+    left: 120px;
+    background-color: red;
+}
+
+#green9 {
+    position: absolute;
+    bottom: 140px;
+    left: 140px;
+    background-color: rgb(36, 196, 108); 
+}
+/*Usar las siguientes medidas:
+
+Cuadrado gris: 100px x 100px
+Cuadrado rojo: 60px x 60px
+Cuadrado verde: 30px x 30px*/

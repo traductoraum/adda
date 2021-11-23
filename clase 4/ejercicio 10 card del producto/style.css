@@ -1,0 +1,95 @@
+*{
+    background-color: rgb(240, 236, 236);
+    margin: 0px;
+    padding:0px;
+}
+.contenedor1 {
+    background-color: #cb2140;
+    margin-top: 70px;
+    margin-left: 450px;
+    border-radius: 10px;
+    height: 300px;
+    width: 550px;
+    display: block;
+    margin-bottom: -35px;
+}
+
+img {
+    background-color: transparent;
+    height: 260px;
+    margin-left: 80px;
+}
+
+.contenedor2{
+    background-color: rgb(15, 15, 48);
+    height: 550px;
+    width: 550px;
+    margin-left: 450px;
+    display: block;
+    border-radius: 10px; /*como aplico el borde solo a la parte de abajo*/
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+   background-color: rgb(15, 15, 48);
+    font-size: 2.6em;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+    background-color: rgb(15, 15, 48);
+    color: white;
+    border-color: #cb2140;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 0.6em;
+    height: 35px;
+    width: 100px;
+    margin-left: 45px;
+
+}
+
+h2{
+    background-color: rgb(15, 15, 48);
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+p {
+    background-color: rgb(15, 15, 48);
+    color: white;
+    font-size: 1em;
+    width: 400px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.precio {
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+h3 {
+    background-color: rgb(15, 15, 48);
+    color: white;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.comprar {
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 20px;
+    background-color: #cb2140;
+    color: white;
+    height: 45px;
+    width: 170px;
+    border-radius: 28%;
+    border-color: background-color: #cb2140;
+    text-decoration: none;
+    
+}

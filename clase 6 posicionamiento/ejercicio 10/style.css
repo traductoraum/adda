@@ -1,0 +1,85 @@
+/* contenedor imagen h1 p */
+
+*{
+margin: auto;
+height: 120%;
+width: 120%;
+background: #200122;  /* fallback for old browsers */
+
+}
+
+.contenedor {
+    display: flex;
+    position: absolute;
+    height: 1200px;
+    width: 1200px;
+    left: 15%;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.imagen {
+    position: absolute;
+    height: 700px;
+    width: 900px;
+    border-style: double;
+    border-width: 2em;
+    border-color: rgb(246, 198, 252);
+    margin-top: 10%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    opacity: 1;
+    font-family: 'Petemoss', cursive;
+    font-size: 4em;
+    letter-spacing: 0.5cm;
+    color:rgb(255, 219, 219);
+    font-weight: 900;
+    background-color: transparent;
+}
+
+p {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    padding: 20%;
+    font-family: 'Petemoss', cursive;
+    font-size: 1.6em;
+    letter-spacing: 0.5cm;
+    color:rgb(212, 192, 192);
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    background-color: transparent;
+    
+}
+
+p:hover {
+    font-size: 1.5em;
+    z-index: 1;
+    background-color: rgba(138, 71, 59, 0.692);
+    text-align: center;
+    height: 0;
+       }
+
+.parrafo {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    content: '';
+    background-color: transparent;
+        }
+.parrafo:hover {
+    content: '';
+    b
+  
+    visibility: visible;
+    z-index: 2;
+}

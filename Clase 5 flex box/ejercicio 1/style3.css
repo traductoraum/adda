@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div8 {
+    background-color: tomato;
+    flex-grow: 5;
+}
+
+.div9 {
+    background-color: thistle;
+    flex-grow: 5;
+}
+
+.div10 {
+    background-color: turquoise;
+    flex-grow: 5;
+}
+/* me parece q el lila es más grnade /*

@@ -1,0 +1,40 @@
+/* 01 - Presentación
+index.html debe tener:
+
+un título h1 con un tamaño de letra de 120px y una tipografía de Google Fonts (por ejemplo: Montserrat) y un grosor de letra de 800 o 900. 
+El título debe decir: ¡Hola, soy Ada! (con tu nombre).
+un párrafo con un tamaño de letra de 48px y una tipografía de Google Fonts (por ejemplo: Montserrat) y un grosor de letra de 600 o 700. El párrafo debe tener
+ una breve descripción tuya, por ejemplo: Primera programadora, matemática en mi tiempo libre y guitarrista.
+Tanto tu nombre como las palabras claves de tu descripción (por ejemplo: programadora, matemática y guitarrista) deben estar en distintos colores
+ (cada palabra debe tener un color distinto).-->*/
+ 
+ h1 {
+font-size: 120px;
+font-family: 'Zen Antique', serif;
+font-weight: 800;
+color: cornflowerblue;
+display: inline;
+ }
+
+ #nombre {
+    font-size: 120px;
+    font-weight: 800;
+    color: rgb(139, 0, 86);
+    display: inline;
+ }
+
+ p {
+    font-size: 48px;
+    font-weight: 600;
+ }
+
+ span.parraforesaltado{
+     color: rgb(105, 218, 202);
+ }
+ span.parraforesaltado2{
+    color: rgb(26, 104, 93);
+}
+span.parraforesaltado3{
+    color: rgb(34, 82, 75);
+}
+

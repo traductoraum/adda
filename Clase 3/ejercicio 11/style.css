@@ -1,0 +1,52 @@
+*{
+    font-family: 'Caveat', cursive;
+    font-family: 'Bree Serif', serif;
+    
+    }
+.contenedor {
+    text-align: justify;
+    width: 88%;
+    height: 150%;
+    margin-left: 10%;
+    background-color: palegoldenrod;
+    border-style: double;
+    border-radius: 2%;
+    border-color: rgb(205, 243, 67);
+}
+
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+    text-align: center;}
+h3 {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+
+h3, span {
+    font-family: 'Caveat', sans-serif;
+}
+
+a {
+    color: mediumorchid;
+    text-decoration: none;
+    }
+
+.fecha {
+    font-size: .7em;
+    color: rgb(212, 201, 200);
+}
+
+span {
+    background-color: rgb(105, 98, 98);
+}
+/*Poner un tipografía distinta a la default.
+
+Dar a los títulos un tamaño de fuente distinto al default.
+
+Dar al nombre de usuaria un color que se distinga (azul/celeste, etc) y sacar el subrayado por default.
+
+Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
+
+Separar los span con espacios y ponerle un color de fondo gris claro.-->

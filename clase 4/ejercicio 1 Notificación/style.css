@@ -1,0 +1,81 @@
+*{
+    background-color:#FBFBFB;}
+   /* font-family: 'Bree Serif', serif;*/
+    
+
+.contenedor
+{
+padding: 20px;
+margin-left: 100px; 
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 100px;
+background-color: white;
+height: 400px;
+width: 400px;
+/*display: inline-block;*/
+text-align: center;
+position: relative;
+}
+.contenedor::after {
+    position: absolute;
+    bottom: -5px;
+    top: -5px;
+    left: 0px;
+    content: " ";
+    width: 100%;
+    height:100%;
+    background: #b24592; 
+    background: -webkit-linear-gradient(to right, #b24592, #f15f79); 
+    background: linear-gradient(to right, #b24592, #f15f79); 
+    filter: blur(10px);
+    z-index: -1;
+/* por que me aparece la sombra arriba y no abajo si yo le puse de valor bottom para el inicio de la posición relativa */
+
+}
+img {
+height: 50px;
+width: 70px;
+padding: 0%;
+margin-left: -80%;
+
+}
+
+.parrafo {
+    background-color: white;
+    text-align: justify;
+}
+
+.titulo {
+    background-color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: #588BDA;}
+
+.boton {
+width: 130px;
+height: 40px;
+display: inline-block;
+position: relative;
+padding-left: 30px;
+padding-right: 30px;
+
+/*background-color: lightskyblue;
+background: -webkit-linear-gradient(rgb(115, 122, 219), rgb(193, 200, 230));
+/*background: -moz-linear-gradient(rgb(38, 53, 250), rgb(9, 226, 255));*/
+/*background: -o-linear-gradient(rgb(38, 53, 250), rgb(9, 226, 255));
+background*/
+background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #416dca, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #415bce, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-style: solid;
+border-color: white;
+border-radius: 10%;
+margin-left: -70%;
+color: white;
+text-align: center;
+text-shadow: 0 1px 2px;
+
+}

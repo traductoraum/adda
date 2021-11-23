@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(235, 235, 235);
+    font-family: "Muli", sans-serif;
+}
+div {
+margin-top: 50px;
+margin-left: 150px;
+height: 1100px;
+width: 850px;
+background-color: white;
+box-shadow: whitesmoke 0 5px 1px;
+}
+
+h1 {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 45px;
+    padding-top: 40px;
+    background-color: white;
+    text-align: left;
+    font-size: 3em;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #343434;
+
+}
+
+h2 {
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.oscuro {
+    padding: 5px;
+    height: 50px;
+    width: 80px;
+    margin-left: 45px;
+    background-color: rgb(12, 9, 9);
+    color: white;
+    border-radius: 10%;
+}
+
+.claro {
+    padding: 5px;
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: white;
+    color: rgb(133, 117, 117);
+    border-style: none;
+    display: inline-block;
+}
+
+
+
+span {
+    background-color: white;
+    color: rgb(78, 76, 76);
+    margin-top: 75px;
+    margin-right: 20px;
+
+}
+
+.rojo {
+    margin-left: 20px;
+    color: #ec6189;
+}
+
+p {
+    background-color: white;
+    margin-left: 20px;
+    width: 600px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+a {
+    background-color: white;
+    margin-left: 50px;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(45, 9, 71);
+    font-size: 14px;
+}
+
+.hora {
+    margin-left: 20px;
+    color: grey;
+} 

@@ -1,0 +1,70 @@
+
+*{
+    margin: auto;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 3m;
+}
+
+#div {
+  
+    width: 500px;
+    height: 1200px;
+    border: rosybrown;
+}
+
+li {
+    width: 500px;
+    height: 75px;}
+ 
+.elemento1
+ {background-color: rgb(26, 10, 245);}
+
+.elemento2 {
+background-color: rgb(85, 136, 160);
+
+}
+.elemento3 {
+background-color: rgb(76, 141, 202);    
+}
+.elemento4 {
+background-color: rgb(152, 197, 233);
+
+}
+.elemento5 {
+background-color: rgb(126, 247, 252);
+
+}
+.elemento6 {
+background-color: rgb(190, 180, 30);
+}
+.elemento7 {
+background-color: rgb(245, 146, 53);
+
+}
+.elemento8 {
+background-color:  rgb(209, 128, 23);;
+}
+.elemento9 {
+    background-color:  rgb(228, 60, 19);;
+    }
+.elemento10 {
+        background-color:  rgb(211, 61, 23);
+        }
+.elemento11 {
+            background-color:  rgb(224, 24, 24);;
+            }
+
+ 
+/*
+<!--08 - Termómetro
+index.html debe tener:
+
+una lista desordenada con 10 ítems.
+
+la lista debe ir de Temperatura: 0°C a Temperatura: 50°C aumentando de a 5°C.
+
+poner las temperaturas extremas (0°C y 50°C) en negrita.
+
+dar a cada temperatura un color distinto, cambiando gradualmente, siendo el 0°C el color azul y 50°C el color rojo. Ver ejemplo.-->*/
+

@@ -1,0 +1,58 @@
+body {
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contenedor{
+height: 500px;
+width: 850px;
+display: flex;
+background-color: whitesmoke;
+flex-direction: row;
+justify-content:flex-start;
+margin: auto;
+margin-top: 150px;
+}
+
+.foto {
+display: flex;
+flex-basis: 100px;
+} /*no me toma la propiedad */
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    align-items: center;
+    /*justify-content:baseline; /*nmo me toma la propiedad */
+    justify-content: space-evenly;
+    
+    
+        }
+.año {
+    display: flex;
+    align-items: flex-end;
+    color: rgb(216, 214, 231);
+    
+}
+
+.descripcion {
+    display: flex;
+    flex-grow: 4;
+    color: turquoise;
+    margin: auto;
+    font-size: 1.4em;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2em;
+    color:whitesmoke
+  
+}

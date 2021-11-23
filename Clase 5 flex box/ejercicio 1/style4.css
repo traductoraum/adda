@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    background-color: tomato;
+    flex-grow: 5;
+}
+
+.div2 {
+    background-color: turquoise;
+    flex-grow: 2.5;
+}
+
+.div3 {
+    background-color: thistle;
+    flex-grow: 2.5;
+}
+
+/*Agregá 3 divs. Hacé que el primer div ocupe la mitad del ancho de la 
+pantalla, y los 2 restantes un cuarto cada uno.
+creo q no lo hace porq el lila parece mas grande/*

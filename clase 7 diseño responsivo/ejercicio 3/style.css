@@ -1,0 +1,12 @@
+.service-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+    color: white;
+    background-color: #6875f5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

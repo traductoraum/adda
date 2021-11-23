@@ -1,0 +1,43 @@
+
+*{
+    background-color: rgb(236, 188, 183);
+}
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 5em;
+text-align: center;
+}
+
+span.arbol1 {
+font-size: 10em;
+}
+span.arbol2 {
+    font-size: 8em;    
+    }
+span.arbol3 {
+    font-size: 6em;       
+        }
+
+span.arbol4 {
+    font-size: 4em;
+     }
+
+span.arbol5 {
+    font-size: 2em;
+        }
+span.casa1 {
+    font-size: 9em;
+            
+            }
+span.casa2 {
+    font-size: 7em;       
+            }
+span.casa3 {
+     font-size: 5em;
+            }
+span.casa4 {
+    font-size: 3em;
+         }
+span.casa5 {
+     font-size: 1em;
+            }

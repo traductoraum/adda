@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+   
+   }
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(75, 23, 23);
+    margin-top: 0%;
+    position: fixed;
+   
+    }
+
+ul {
+    position: absolute;
+    justify-content: space-evenly;
+     color:turquoise;
+    font-weight: 800;
+   right: -60%;
+   padding-top: 1%;
+    }
+
+li {
+      display: inline;
+      padding: 3%;
+      text-decoration: none;
+      color: rgb(201, 73, 162);
+      
+      
+}
+
+.barra
+{
+    
+    display: none;
+}
+
+@media only screen and (max-width: 400px){
+    li {display: none;}
+    .barra {display: flex;
+    position: absolute;
+    right: 0%;
+    height: 180px;
+    width: 160px;
+    background-color: whitesmoke;}
+    
+}
+
+
+
+
+
+/*Poner un breakpoint para que cuando el ancho de la pantalla esté por cubrir los links, los links se oculten y en un su lugar aparezca un ícono.
+Usar este ícono de Font Awesome.
+El ícono tiene que estar alineado a la derecha en el header.-->*/*/

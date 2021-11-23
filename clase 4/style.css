@@ -1,0 +1,20 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prueba {background-color: rgb(48, 207, 207)
+    ;
+        box-sizing:content-box;
+        width: 500px;
+        height: 100px;
+        padding: 50px;
+        border: 50px coral solid;
+        display: inline-block;
+        /*overflow-y: scroll;*/
+}
+
+/*#parrafo2
+{
+    display: inline-block;
+    
+}*/

@@ -1,0 +1,118 @@
+*{background-color: #EBE3FB;
+padding: 0px;
+margin: 0px}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 1280px;
+    background-color: #f8faff;
+    border-radius: 40px;
+    height: 100px;
+    width: 190px;
+    display: inline-block;
+    
+    }
+span {background-color: #f8faff;}
+    
+    .gema {
+    height: 100px;
+    width: 90px;
+    display: inline;
+    vertical-align: middle;
+    background-color: #f8faff;
+
+    }
+.titulo {
+font-size: 2em;
+background-color: white;
+text-align: center;
+margin-top: 80px;
+margin-left: 100px;
+margin-right: 120px;
+margin-bottom: 50px;
+
+}
+
+.contenedor {
+    height: 480px;
+    width: 530px;
+    margin-top: 40px;
+    margin-left: 600px;
+    padding-left: 35px;
+    padding-right: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color:white;
+    box-shadow: 0px 0px 16px 1px rgb(219, 214, 214);
+        
+    }
+
+.botones {
+    width: 400px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.boton1 {
+    height: 50px;
+    width: 70px;
+    background-color: white;
+    color: grey;
+    border-color: lavender;
+    margin-right: 0px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 5px 1px rgb(219, 214, 214);
+    font-weight: 600;
+}
+
+.boton2 {
+    height: 50px;
+    width: 70px;
+    background-color: #7464F3;
+    color: grey;
+    border-color:#7464F3;
+    color: white;
+    margin-left: 15px;
+    box-shadow: 0px 0px 5px 1px rgb(219, 214, 214);
+    font-weight: 600;
+}
+
+.boton3 {
+    height: 50px;
+    width: 105px;
+    background-color: white;
+    color: grey;
+    border-color: lavender;
+    margin-left: 15px;
+    box-shadow: 0px 0px 5px 1px rgb(219, 214, 214);
+    font-weight: 600;
+}
+
+.continue {
+    height: 50px;
+    width: 375px;
+    background-color: #7464F3;
+    color: grey;
+    border-color:#7464F3;
+    color: white;
+    margin-right: 5px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 1px #8677fc;
+    font-weight: 400;
+    font-size: 1.2em;
+    
+
+
+}
+
+    /*    <div class="contenedor">
+        <h2 class="titulo">Donate to help keep the internet free and open!</h2>
+        <button class="boton1">$5</button>
+        <button class="boton1">$10</button>
+        <button class="boton2">$15</button>
+        <button class="boton3">$Other</button>
+        <button class="continue">Continue</button>
+    </div>*/

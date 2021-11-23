@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;*/
+    
+}
+
+.div1{
+    background-color: thistle;
+    flex-basis: 25%;
+}
+
+.div2 {
+    background-color: tomato;
+    flex-basis: 25%;
+}
+
+.div3 {
+    background-color: turquoise;
+    flex-basis: 25%;
+}
+
+.div4 {
+    background-color: violet;
+    flex-basis: 25%;
+}
+
+.div5 {
+    background-color: yellow;
+    flex-basis: auto;
+
+}
+
+
+/*Agregá 5 divs. Dales a todos un flex-basis de 25%. 
+Hacé que el último div ocupe el espacio restante.
+si es 25% los 4 ya dan el 100 */ 

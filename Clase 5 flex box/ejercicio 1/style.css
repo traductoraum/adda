@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.div1 {
+width: 250px;
+height: 250px;
+background-color: turquoise;
+border-color: tomato;
+border-style: solid;
+border-width: 1em;
+}
+
+
+.div2 {
+    height: 250px;
+    flex-direction: column;
+    flex-grow: 1; /*con dar cualquier valor positivo ya toma toda la pantalla? */
+    background-color: tomato;
+    border-color: thistle;
+    border-width: 1em;
+    border-style: solid;
+}
+
+.div3 {
+    height: 250px;
+    width: 250px;
+    background-color: thistle;
+    border-color: violet;
+    border-width: 1em;
+    border-style: solid;
+}
+
+/*Agregá 3 divs. Hacé que el primero y el último tengan 250px de ancho usando width,
+ y que el del medio ocupe el espacio restante usando flex-grow.*/

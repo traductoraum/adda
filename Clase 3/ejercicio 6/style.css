@@ -1,0 +1,47 @@
+
+*{
+    font-family: 'Fruktur', cursive;
+    font-size: 1em;
+    background-color: wheat;
+
+}
+
+ul {
+width: 250px;
+height: 300px;
+text-align: justify;
+text-shadow: white;
+font-size: 2em;
+
+}
+
+h1 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 4em; 
+   color: violet;
+   text-align: center;
+}
+li.rojo {
+    color: rgb(233, 33, 33);
+}
+
+li.verde {
+    color: rgb(43, 194, 12);
+}
+
+li.amarillo {
+    color: rgb(175, 201, 32);
+}
+
+li.durazno {
+    color: rgb(226, 152, 40);
+}
+
+li.violeta{
+    color: rgb(136, 25, 136);
+
+}
+li.marron {
+    color: rgb(194, 109, 12);
+}
+

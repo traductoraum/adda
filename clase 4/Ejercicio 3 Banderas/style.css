@@ -1,0 +1,63 @@
+*{font-family: 'Bree Serif', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+}
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: darkcyan;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+div {
+    text-align: center;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-style: solid;
+    border-color: darkcyan;
+    border-radius: 05%;
+    border-width: 0.02em;
+    margin-top: 200px;
+    margin-left: 750px;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    
+}
+.div::after {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    content: ' ';
+    width: 100%;
+    height: 10%;
+    background-color: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    background-color: linear-gradient(to right, #3498db, #2c3e50);
+    filter: blur(10px);
+    z-index: -1;
+
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+/* xq no sale la sombra del borde con ::After ------------------------------------- /*
+
+
+
+/* Creá 6 banderas, una debajo de la otra, usando divs
+Las banderas deben 300px de ancho y 200px de alto
+Las banderas deben estar separadas entre sí por un margen
+Las banderas deben estar centradas horizontalmente respecto a la pantalla
+Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania). Para las franjas usá divs también, por ejemplo:
+<div class="bandera-argentina">
+  <div class="franja-celeste"></div>
+  <div class="franja-blanca"></div>
+  <div class="franja-celeste"></div>
+</div>-->*/

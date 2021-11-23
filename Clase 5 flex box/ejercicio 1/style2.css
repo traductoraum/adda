@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.div4 {
+    height: 250px;
+    width: 200px;
+    background-color: yellowgreen;
+}
+.div5 {
+    height: 250px;
+    background-color: yellow;
+    flex-grow: 5;}
+.div6 {
+    height: 250px;
+    background-color: rgb(78, 92, 119);
+    flex-grow: 5;} /*si a ambos les pongo un mismo valor positivo se dividen el espacio*/
+.div7 { 
+    height: 250px;
+    background-color: yellowgreen;
+    width: 200px;}
+
+
+    /*Agregá 4 divs. Hacé que el primero y el último tengan 200px de ancho usando width, y que los dos del
+     medio ocupen cada uno la mitad del espacio restante, usando flex-grow.*/

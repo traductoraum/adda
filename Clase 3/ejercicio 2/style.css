@@ -1,0 +1,35 @@
+*{
+    background-color: #212121;
+    color: #FAFAFA;
+}
+h1 {
+    font-size: 120px;
+    font-family: 'Zen Antique', serif;
+    font-weight: 800;
+    color: cornflowerblue;
+    display: inline;
+     }
+    
+     #nombre {
+        font-size: 120px;
+        font-weight: 800;
+        color: rgb(139, 0, 86);
+        display: inline;
+     }
+    
+     p {
+        font-size: 48px;
+        font-weight: 600;
+     }
+    
+     span.parraforesaltado{
+         color: rgb(105, 218, 202);
+     }
+     span.parraforesaltado2{
+        color: rgb(26, 104, 93);
+    }
+    span.parraforesaltado3{
+        color: rgb(34, 82, 75);
+    }
+    
+    

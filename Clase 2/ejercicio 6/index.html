@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejercicio 6</title>
+</head>
+<body>
+  <h1 id="arriba"><b>Curso de Desarrollo FrontEnd</h1></b>
+  <div id="indice">
+    <h2>Índice</h2>
+    <ol>
+     <li><a href="#Definición">Definición</a></li>
+     <li> <a href="#Historia">Historia</a></li>
+     <li> <a href="#Elementos">Elementos</a></li>
+     <li> <a href="#Nociones Básicas"> Nociones Básicas</a></li>
+     <li><a href="#Introducción a CSS">Introducción a CSS</a></li>
+     <li><a href="#Introducción a Sass">Introducción a Sass</a></li>
+     <li><a href="#Introducción a JavaScript">Introducción a Javascript</a></li>
+     <li><a href="#Introducción a React">Introducción a React</a></li>
+     <li><a href="#arriba">Volver Arriba</a></li>
+   </ol>
+  </div>
+    <hr><br><br><br>
+  <div id="Definición">
+    <h2>Definición</h2>
+    <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. 
+    Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código
+    (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web 
+    Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e 
+    interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW).
+    Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado</p>
+    <br> 
+  </div>
+  <div id="Historia">
+    <h2>Historia</h2>
+    <p>Tim Berners-Lee (TBL) en 19912​3​ describe 18 elementos que incluyen el diseño inicial y relativamente simple de HTML. Trece de estos elementos todavía existen en HTML 4.4​
+    Berners-Lee consideraba el HTML una ampliación de SGML, pero no fue formalmente reconocida como tal hasta la publicación a mediados de 1993, por la IETF (en español: Grupo de
+    Trabajo de Ingeniería de Internet), de una primera proposición para una especificación del HTML: el borrador del Hypertext Markup Language de Berners-Lee y Dan Connolly, 
+    que incluía una Definición de Tipo de Documento SGML para definir la gramática.5​ El borrador expiró a los seis meses, pero fue notable por su reconocimiento de la etiqueta
+    propia del navegador Mosaic usada para insertar imágenes sin cambio de línea, que reflejaba la filosofía del IETF de basar estándares en prototipos con éxito.6​De la misma manera,
+    el borrador competidor de Dave Raggett HTML+ (Hypertext Markup Format) (Formato de Marcaje de Hipertexto), de finales de 1993, sugería estandarizar características ya 
+    implementadas, como las tablas.7​</p>
+      <br>
+    <p>El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (<,>,/). El HTML también puede describir, hasta un cierto punto, la apariencia de un documento,
+     y puede incluir o hacer referencia a un tipo de programa llamado script, el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.8​
+      HTML también sirve para referirse al contenido del tipo de MIME text/html o todavía más ampliamente como un término genérico para el HTML, ya sea en forma descendida del XML
+     (como XHTML 1.0 y posteriores) o en forma descendida directamente de SGML (como HTML 4.01 y anteriores). HTML consta de varios componentes vitales, entre ellos los elementos
+      y sus atributos, tipos de data y la declaración de tipo de documento. </p>
+        <br> 
+  </div>
+  <div id="Elementos">
+    <h2>Elementos</h2>
+    <p> Los elementos son la estructura básica de HTML. Los elementos tienen dos propiedades básicas: atributos y contenido. Cada atributo y contenido tiene ciertas restricciones
+    para que se considere válido al documento HTML. Un elemento generalmente tiene una etiqueta de inicio (por ejemplo, <nombre-de-elemento>) y una etiqueta de cierre
+    (por ejemplo, </nombre-de-elemento>). Los atributos del elemento están contenidos en la etiqueta de inicio y el contenido está ubicado entre las dos etiquetas
+    (por ejemplo, <nombre-de-elemento atributo="valor">Contenido</nombre-de-elemento>). Algunos elementos, tales como <br>, no tienen contenido ni llevan una etiqueta
+    de cierre. Debajo se listan varios tipos de elementos de marcado usados en HTML.
+    Estructura general de una línea de código en el lenguaje de etiquetas HTML.
+    El marcado estructural describe el propósito del texto. Por ejemplo, <h2>Golf</h2> establece «Golf» como un encabezamiento de segundo nivel, el cual se mostraría en un
+    navegador de una manera similar al título «Marcador HTML» al principio de esta sección. El marcado estructural no define cómo se verá el elemento, pero la mayoría de los
+    navegadores web han estandarizado el formato de los elementos. Puede aplicarse un formato específico al texto por medio de hojas de estilo en cascada.      
+    El marcado presentacional describe la apariencia del texto, sin importar su función. Por ejemplo, <b>negrita</b> indica que los navegadores web visuales deben mostrar el 
+    texto en negrita, pero no indica qué deben hacer los navegadores web que muestran el contenido de otra manera (por ejemplo, los que leen el texto en voz alta). 
+    En el caso de <b>negrita</b> e <i>itálica</i>, existen elementos que se ven de la misma manera pero tienen una naturaleza más semántica: <strong>énfasis fuerte</strong> 
+    y <em>énfasis</em>. Es fácil ver cómo un lector de pantalla debería interpretar estos dos elementos. Sin embargo, son equivalentes a sus correspondientes elementos 
+    presentacionales: un lector de pantalla no debería decir más fuerte el nombre de un libro, aunque el nombre resalte en itálicas en una pantalla. La mayoría del marcado
+    presentacional ha sido desechada desde la versión 4.01, en favor de las hojas de estilo en cascada.
+    El marcado hipertextual se utiliza para enlazar partes del documento con otros documentos o con otras partes del mismo documento. Para crear un enlace es necesario utilizar
+    la etiqueta de ancla <a> junto con el atributo href, que establecerá la dirección URL a la que apunta el enlace. Por ejemplo, un enlace que muestre el texto de la dirección
+    y vaya hacia nuestra Wikipedia podría ser de la forma <a href=https://www.wikipedia.org target="_blank"> https://www.wikipedia.org</a>. También se pueden crear enlaces sobre otros 
+    objetos, tales como imágenes <a href=”enlace”><img src="./imagen/html.png" height="50px" width="50px"/></a>.</p>
+        <hr> <br> 
+  </div>
+  <div id="Nociones Básicas">
+    <h2>Nociones Básicas</h2>
+    <p>El lenguaje HTML puede ser creado y editado con cualquier editor de textos básico, como puede ser Gedit en GNU/Linux, el Bloc de notas de Windows, o cualquier otro editor que admita texto sin formato como GNU Emacs, Microsoft Wordpad, TextPad, Vim, Notepad++, entre otros.
+    Existen, además, otros editores para la realización de sitios web con características WYSIWYG (What You See Is What You Get, o en español: «lo que ves es lo que obtienes»). Estos editores permiten ver el resultado de lo que se está editando en tiempo real, a medida que se va desarrollando el documento. Ahora bien, esto no significa una manera distinta de realizar sitios web, sino que una forma un tanto más simple, ya que estos programas, además de tener la opción de trabajar con la vista preliminar, tiene su propia sección HTML, la cual va generando todo el código a medida que se va trabajando. Algunos ejemplos de editores WYSIWYG son KompoZer, Microsoft FrontPage o Adobe Dreamweaver.            
+    Combinar estos dos métodos resulta muy interesante, ya que de alguna manera se ayudan entre sí. Por ejemplo, si se edita todo en HTML y el desarrollador olvida algún código o etiqueta, basta con dirigirse al editor visual o WYSIWYG y se continúa ahí la edición o viceversa, ya que hay casos en que resulta más rápido y fácil escribir directamente el código de alguna característica que el usuario desea adherir al sitio que buscar la opción en el programa mismo.
+    Existe otro tipo de editores HTML llamados WYSIWYM que dan más importancia al contenido y al significado que a la apariencia visual. Entre los objetivos que tienen estos editores es la separación del contenido y la presentación, fundamental en el diseño web.
+    HTML utiliza etiquetas o marcas, que consisten en breves instrucciones de comienzo y final, mediante las cuales se determina la forma en la que debe aparecer en su navegador el texto, así como también las imágenes y los demás elementos, en la pantalla del ordenador. 
+    Toda etiqueta se identifica porque está encerrada entre los signos menor que y mayor que (<>), y algunas tienen atributos que pueden tomar algún valor. En general las etiquetas se aplicarán de dos formas especiales:
+    Se abren y se cierran, como por ejemplo: <b>negrita</b>, que se vería en su navegador web como negrita.
+    No pueden abrirse y cerrarse, como <hr />, que se vería en su navegador web como una línea horizontal.
+    Otras que pueden abrirse y cerrarse, como por ejemplo <p>.
+    Las etiquetas básicas o mínimas son:</p> 
+      <br> <hr> <br> <br>
+  </div>
+  <div id="Introducción a CSS">
+    <h2>Introducción a CSS</h2>
+    <p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento
+    estructurado escrito en un lenguaje de marcado.2​ Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el 
+    lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web
+    para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS).3​
+    CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, 
+    los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales,
+    permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la
+    estructura del documento.
+    La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para diferentes métodos de renderizado, como en pantalla, 
+    en impresión, en voz (mediante un navegador de voz o un lector de pantalla), y dispositivos táctiles basados en el sistema Braille. También se puede mostrar una página web de
+    manera diferente dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, como una hoja de estilos CSS 
+    guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.
+    La especificación CSS describe un esquema prioritario para determinar qué reglas de estilo se aplican si más de una regla coincide para un elemento en particular. Estas reglas son
+    aplicadas con un sistema llamado de cascada, de modo que las prioridades son calculadas y asignadas a las reglas, así que los resultados son predecibles.
+    La especificación CSS es mantenida por el World Wide Web Consortium (W3C). El MIME type text/css está registrado para su uso por CSS descrito en el RFC 2318.5​ El W3C proporciona
+    una herramienta de validación de CSS gratuita para los documentos CSS.
+    </p>
+  </div>
+    <br> <hr><br><br>
+  <div id="Introducción a Sass">
+    <h2>Introducción a SAss</h2>
+    <p>Sass (Syntactically Awesome Stylesheets) es un lenguaje de hoja de estilos en cascada inicialmente diseñado por Hampton Catlin y desarrollado por Natalie Weizenbaum.1​2​Después de sus versiones iniciales, Nathan Weizenbaum y Chris Eppstein han continuado extendiendo Sass con SassScript, un lenguaje de script simple, usado en los ficheros Sass.
+    Sass es un metalenguaje de Hojas de Estilo en Cascada (CSS). Es un lenguaje de script que es traducido a CSS, SassScript es el lenguaje de script en sí mismo. Sass consiste en dos sintaxis. La sintaxis original, llamada indented syntax («sintaxis con sangrado») que usa una sintaxis similar al Haml.3​ Este usa la sangría para separar bloques de código y el carácter nueva línea para separar reglas. La sintaxis más reciente, SCSS, usa el formato de bloques como CSS. Este usa llaves para denotar bloques de código y punto y coma (;) para separar las líneas dentro de un bloque. La sintaxis indentada y los ficheros SCSS tienen las extensiones .sass y .scss respectivamente.
+    CSS3 consiste en una serie de selectores y pseudo-selectores que agrupan las reglas que son aplicadas. Sass (en el amplio contexto de ambas sintaxis) extiende CSS proveyendo de varios mecanismos que están presentes en los lenguajes de programación tradicionales, particularmente lenguajes orientados a objetos, pero este no está disponible para CSS3 como tal. Cuando SassScript se interpreta, este crea bloques de reglas CSS para varios selectores que están definidos en el fichero SASS. El intérprete de SASS traduce SassScript en CSS. Alternativamente, Sass puede monitorear los ficheros .sass o .scss y convertirlos en un fichero .css de salida cada vez que el fichero .sass o .scss es guardado.4​ Sass es simplemente azúcar sintáctica para escribir CSS.
+    La implementación oficial de Sass es open-source y está escrita en Ruby, sin embargo existen otras implementaciones, incluyendo una en PHP para Drupal.5​
+    La sintaxis indentada es un metalenguaje. SCSS es un metalenguaje anidado, lo que es válido en CSS es válido en SCSS con la misma semántica. Sass soporta la integración con la extensión de Firefox Firebug.6​
+    SassScript proporciona los mecanismos siguientes: variables, nesting (anidamiento), mixins, y herencia.3​ de los selectores.
+    </p> <br> <hr> <Br>
+  </div>
+  <div id="Introducción a JavaScript">
+    <h2>Introducción a JavaScript</h2>
+    <p>JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,2​ basado en prototipos, imperativo, débilmente tipado y dinámico.
+      Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas3​ y JavaScript del lado del servidor (Server-side JavaScript o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.    
+      Desde 2012, todos los navegadores modernos soportan completamente ECMAScript 5.1, una versión de JavaScript. Los navegadores más antiguos soportan por lo menos ECMAScript 3. La sexta edición se liberó en julio de 2015.4​
+      JavaScript se diseñó con una sintaxis similar a C [cita requerida], aunque adopta nombres y convenciones del lenguaje de programación Java. Sin embargo, Java y JavaScript tienen semánticas y propósitos diferentes. Su relación es puramente comercial, tras la compra del creador de Java (Sun Microsystems) de Nestcape Navigator (creador de LiveScript) y el cambio de nombre del lenguaje de programación.
+      Todos los navegadores modernos interpretan el código JavaScript integrado en las páginas web. Para interactuar con una página web se provee al lenguaje JavaScript de una implementación del Document Object Model (DOM). Javascript es el único lenguaje de programación que entienden de forma nativa los navegadores.
+      Tradicionalmente se venía utilizando en páginas web HTML para realizar operaciones y únicamente en el marco de la aplicación cliente, sin acceso a funciones del servidor. Actualmente es ampliamente utilizado para enviar y recibir información del servidor junto con ayuda de otras tecnologías como AJAX. JavaScript se interpreta en el agente de usuario al mismo tiempo que las sentencias van descargándose junto con el código HTML.
+      Desde el lanzamiento en junio de 1997 del estándar ECMAScript 1, han existido las versiones 2, 3 y 5, que es la más usada actualmente (la 4 se abandonó5​). En junio de 2015 se cerró y publicó la versión ECMAScript 6.6​
+    </p> <br> <hr> <Br>
+  </div>
+  <div id="Introducción a React">
+    <h2>Introducción a React</h2>
+    <p>React (también llamada React.js o ReactJS) es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo
+    de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.
+    React intenta ayudar a los desarrolladores a construir aplicaciones que usan datos que cambian todo el tiempo. Su objetivo es ser sencillo, declarativo y fácil de combinar. 
+    React sólo maneja la interfaz de usuario en una aplicación; React es la Vista en un contexto en el que se use el patrón MVC (Modelo-Vista-Controlador) o MVVM (Modelo-vista-modelo
+    de vista). También puede ser utilizado con las extensiones de React-based que se encargan de las partes no-UI (que no forman parte de la interfaz de usuario) de una aplicación web.
+    Según el servicio de análisis JavaScript (en inglés "JavaScript analytics service"), Libscore, React actualmente está siendo utilizado en las páginas principales de Imgur, Bleacher Informe, Feedly, Airbnb, SeatGeek, HelloSign, entre otras.
+  </p>
+ </div>
+  <br> <hr> <Br>
+  <div id="indice">
+    <h2>Índice</h2>
+    <ol>
+     <li><a href="#Definición">Definición</a></li>
+     <li> <a href="#Historia">Historia</a></li>
+     <li> <a href="#Elementos">Elementos</a></li>
+     <li> <a href="#Nociones Básicas"> Nociones Básicas</a></li>
+     <li><a href="#Introducción a CSS">Introducción a CSS</a></li>
+     <li><a href="#Introducción a Sass">Introducción a Sass</a></li>
+     <li><a href="#Introducción a JavaScript">Introducción a Javascript</a></li>
+     <li><a href="#Introducción a React"></a>Introducción a React</li>
+     <li><a href="#arriba">Volver Arriba</a></li>
+   </ol>
+  </div>
+
+
+</body>
+
+<!-- 06 - Temario
+index.html debe contener:
+
+un título h1 que diga lo siguiente: Curso de desarrollo Frontend
+un párrafo p con la introducción o resumen del artículo.
+una lista ordenada, donde cada ítem es un link con el nombre de cada sección, y que al clickearlo te lleve a la sección correspondiente.
+5 secciones con título h2 que sean las siguientes:
+Introducción a HTML.
+Introducción a CSS.
+Introducción a Sass.
+Introducción a JavaScript.
+Introducción a React.
+debajo de cada título de sección:
+10 párrafos p con lorem ipsum.
+un enlace que diga Volver arriba y que al clickearlo te lleve al título h1. --> 

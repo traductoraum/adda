@@ -1,0 +1,105 @@
+body {
+    
+    font-family: "Muli", sans-serif;
+    font-size: 1em;
+    background-color: #a5d6a7;
+    color: #242e4c;
+}
+
+.contenedor {
+
+background-color: rgb(250, 244, 247);
+height: 350px;
+width: 250px;
+padding: 40px;
+margin: 45px; 
+margin-top: 08%;
+margin-left: 35%;
+border-radius: 05%;
+box-shadow: 0px 10px 10px -6px rgb(148, 145, 140);
+}
+
+h1 {
+    background-color: rgb(250, 244, 247);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.4em;
+}
+
+ span {
+    background-color: rgb(250, 244, 247);
+    font-size: 1 em;
+    text-align: center;
+    position: relative;
+    margin-left: 70px;
+    color: color: #7d7a9e;
+}
+
+.lista {
+    background-color: rgb(250, 244, 247);
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+li {background-color: rgb(250, 244, 247);}
+.boton {
+    background-color: whitesmoke;
+    height: 40px;
+    width: 160px;
+    display: inline-block;
+    padding: 0%;
+    margin: 2%;
+    border-radius: 16%;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0px 10px 10px -6px rgb(247, 244, 238);
+}
+
+/* *{
+    
+    font-family: 'Bree Serif', serif;
+    font-family: 'Caveat', cursive;
+    font-size: 1em;
+    background-color: rgb(165, 218, 165);
+}
+
+.contenedor {
+
+background-color: rgb(243, 231, 237);
+height: 500px;
+width: 400px;
+padding: 40px;
+margin: 40px; 
+border-radius: 05%;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+ span {
+    
+    font-size: 2em;
+}
+
+.lista {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+.boton {
+    height: 40px;
+    width: 160px;
+    display: inline-block;
+    padding: 0%;
+    margin: 2%;
+    background-color: lightyellow;
+
+}*/
+/*aplicando este código No me toma el fondo del div como si no me lo 
+tomara ---- y los elementos dentro del div. los li, ul span y title
+los pone con el fondo verde del  * */
